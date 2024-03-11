@@ -1,0 +1,65 @@
+.slider {
+    position: relative;
+    background-color: #fff;
+}
+
+.slider .slick-list {
+    height: 100%;
+    position: relative;
+}
+
+.slider .slick-track {
+    height: 100%;
+}
+
+.slider .slick-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.slider .slick-prev,
+.slider .slick-next {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.slider .slick-prev {
+    left: 0;
+}
+
+.slider .slick-next {
+    right: 0;
+}
+
+
+.slider .slick-dots {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.slick-dots .dot {
+    width: 32px;
+    height: 10px;
+    border-radius: 4px;
+    background-color: #dce0e3;
+    opacity: 1;
+
+    transition: width .3s linear, background-color .3s linear;
+}
+
+.slick-dots .slick-active .dot {
+    width: 50px;
+    background-color: #9aa6af;
+    cursor: default;
+}

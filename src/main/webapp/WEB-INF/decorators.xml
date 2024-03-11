@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+    <decorator name="web" page="web/web.jsp">
+        <pattern>/trang-chu</pattern>
+        <pattern>/trang-chu/</pattern>
+        <pattern>/tin-tuc</pattern>
+        <pattern>/tin-tuc/*</pattern>
+        <pattern>/tu-van</pattern>
+        <pattern>/tu-van/*</pattern>
+        <pattern>/nghanh-hoc</pattern>
+        <pattern>/nghanh-hoc/*</pattern>
+        <pattern>/trac-nghiem-huong-nghiep</pattern>
+        <pattern>/trac-nghiem-huong-nghiep/*</pattern>
+        <pattern>/not-found</pattern>
+        <pattern>/not-found/*</pattern>
+    </decorator>
+
+    <decorator name="admin" page="admin/admin.jsp">
+        <pattern>/admin/news</pattern>
+        <pattern>/admin/news/*</pattern>
+        <pattern>/admin/advise</pattern>
+        <pattern>/admin/advise/*</pattern>
+        <pattern>/admin/field</pattern>
+        <pattern>/admin/field/*</pattern>
+        <pattern>/admin/user</pattern>
+        <pattern>/admin/user/*</pattern>
+        <pattern>/admin/profile</pattern>
+        <pattern>/admin/profile/*</pattern>
+        <pattern>/admin/change-password</pattern>
+        <pattern>/admin/specialized</pattern>
+        <pattern>/admin/specialized/*</pattern>
+        <pattern>/admin/not-found</pattern>
+        <pattern>/admin/not-found/*</pattern>
+    </decorator>
+
+</decorators> 
